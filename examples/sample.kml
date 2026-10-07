@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>GeoMeasure sample survey</name>
+    <Placemark id="block-a">
+      <name>Survey Block A</name>
+      <ExtendedData><Data name="category"><value>survey</value></Data></ExtendedData>
+      <Polygon>
+        <outerBoundaryIs><LinearRing><coordinates>
+          80.2700,13.0800,0 80.2720,13.0800,0 80.2720,13.0815,0 80.2700,13.0815,0 80.2700,13.0800,0
+        </coordinates></LinearRing></outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark id="block-b">
+      <name>Survey Block B (with courtyard)</name>
+      <ExtendedData><Data name="category"><value>survey</value></Data></ExtendedData>
+      <Polygon>
+        <outerBoundaryIs><LinearRing><coordinates>
+          80.2730,13.0800,0 80.2760,13.0800,0 80.2760,13.0820,0 80.2730,13.0820,0 80.2730,13.0800,0
+        </coordinates></LinearRing></outerBoundaryIs>
+        <innerBoundaryIs><LinearRing><coordinates>
+          80.2740,13.0807,0 80.2750,13.0807,0 80.2750,13.0813,0 80.2740,13.0813,0 80.2740,13.0807,0
+        </coordinates></LinearRing></innerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark id="access-road">
+      <name>Access Road</name>
+      <ExtendedData><Data name="category"><value>road</value></Data></ExtendedData>
+      <LineString><coordinates>
+        80.2690,13.0795,0 80.2715,13.0798,0 80.2745,13.0825,0 80.2770,13.0830,0
+      </coordinates></LineString>
+    </Placemark>
+    <Placemark id="gate-1">
+      <name>Main Gate</name>
+      <ExtendedData><Data name="category"><value>asset</value></Data></ExtendedData>
+      <Point><coordinates>80.2690,13.0795,0</coordinates></Point>
+    </Placemark>
+  </Document>
+</kml>
