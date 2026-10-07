@@ -1,9 +1,5 @@
 ![Python](https://img.shields.io/badge/python-3.11%2B-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688)
-![Tests](https://img.shields.io/badge/tests-pytest-informational)
-
-![Python](https://img.shields.io/badge/python-3.11%2B-blue)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688)
 ![Tests](https://img.shields.io/badge/tests-105%20passed-success)
 ![Ruff](https://img.shields.io/badge/ruff-clean-success)
 
